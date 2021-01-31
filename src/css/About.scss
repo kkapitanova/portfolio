@@ -1,0 +1,20 @@
+.about {
+    height: 100vh;
+    margin-top: 120px;
+    margin-bottom: 500px;
+}
+
+.about h1 {
+  margin-left: 20%;
+  color: $aboutTitle;
+  padding-top: 300px;
+}
+
+/* .about h1:hover{
+    color: rgb(29, 113, 158);
+    transition: 0.4s;
+} */
+
+.about-me p {
+    margin-top: 20px;
+}

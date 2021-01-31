@@ -1,0 +1,49 @@
+.contact {
+    padding-top: 100px;
+}
+
+.contact h1 {
+  text-align: right;
+  color: $contactColor;
+}
+
+/* .contact h1:hover {
+  color: #756e4ee7;
+  transition: 0.4s;
+
+} */
+
+.contact p, 
+.contact a {
+  text-transform: none;
+  text-decoration: underline;
+  color: $contactColor;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+// form input,
+// form textarea {
+//     display: block;
+//     width: 500px;
+//     padding: 20px;
+//     background-color: rgba(39, 39, 39, 0.404);
+//     border: 3px solid #fded9e54;
+//     margin: 20px 0;
+//     outline: none;
+//     font-size: 1.2rem;
+//     color: #252627;
+//     position: relative;
+//     left: 50%;
+//     right: 50%;
+//     transform: translateX(-50%);
+// }
+  
+// form input:last-child {
+//     width: 150px;
+//     background-color: $contactColor;
+//     color: black;
+//     border: none;
+//     cursor: pointer;
+// }

@@ -1,0 +1,54 @@
+.skills {
+    height: 100vh;
+    padding-top: 400px;
+    margin-bottom: 600px;
+}
+
+.skills h1 {
+    text-align: right;
+    margin-right: 23%;
+    color: $skillsTitle;
+    padding-top: 80px;
+}
+
+.skills h2 {
+    text-align: center;
+    margin-right: 5%;
+    color: silver;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* .skills h1:hover {
+    color: rgba(74, 131, 39, 0.589);
+    transition: 0.4s;
+} */
+
+.progress-bar {
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    left: 50%;
+    right: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 5px;
+}
+
+.progress-bar p{
+    margin-bottom: -20px;
+    color: $progLangTitle;
+    font-size: 1.2rem;
+}
+
+.framework{
+    max-width: 100px;
+    align-items: center;
+}
+
+.framework p{
+    margin-top: -10px;
+    margin-right: 15px;
+}
+
+  

@@ -1,0 +1,23 @@
+.logo {
+    /* width: 113px;
+    height: 60px;
+    background: url(../img/logo.jpg);
+    background-size: contain; */
+    font-size: 2rem;
+    color: $logo;
+    font-style: bold;
+    margin-top: -10px;
+}
+
+.navbar {
+    background-color: $navbarBackground;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    justify-content: center;
+}
+
+.navbar ul, 
+.navbar div{
+    align-items: center;
+}

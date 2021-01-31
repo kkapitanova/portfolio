@@ -1,0 +1,122 @@
+@import '../src/css/Variables.scss';
+@import '../src/css/About.scss';
+@import '../src/css/Contact.scss';
+@import '../src/css/Info.scss';
+@import '../src/css/NavigationBar.scss';
+@import '../src/css/Skills.scss';
+@import '../src/css/Work.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Epilogue', sans-serif; */
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+/* {
+  color: #E8B4B8; #EED6D3; #A49393; #67595E;
+  rgb(51,51,51); rgb(234,206,202); rgb(159,140,140);
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding: 0 100px 0 100px;
+}
+
+nav ul,
+.main-info,
+.work-category {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* whole page background */
+body {
+  background-color: $pageBackground; 
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+header h1,
+header a {
+  color: $headerText;
+}
+
+.about h1,
+.skills h1,
+.work h1,
+.contact h1 {
+  font-size: 10rem;
+}
+
+li {
+  list-style: none;
+  margin-left: 30px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #774a62;
+  margin-top: 50px;
+}
+
+.section-paragraph {
+  max-width: 900px;
+  background-color: $sectionBackground;
+  opacity: 0.7;
+  box-shadow: 0 0 1.5rem rgba(0, 0, 0, 0.25);
+  padding: 70px;
+  position: relative;
+  text-align: left;
+  top: 50px;
+  font-size: 1.3rem;
+  color: $sectionText;
+  letter-spacing: 0.8;
+  word-spacing: 3px;
+  transition: 0.4s;
+  margin-bottom: -30px;
+}
+
+.section-centralized {
+  top: -60px;
+  left: 50%;
+  right: 50%;
+  transform: translateX(-50%);
+}
+
+.section-paragraph:hover {
+  /* padding: 60px;
+  font-size: 1.5rem; */
+  top: 20px;
+  transition: 0.4s;
+  opacity: 0.9;
+  background-color: $sectionHover;
+}
+
+.section-centralized:hover {
+  top: -90px;
+}
+
+footer hr {
+  border: 2px solid $footer;
+  margin-top: 80px;
+}
+
+footer p {
+  text-align: center;
+  color: $footer;
+  font-size: 1.2rem;
+  padding: 30px 0;
+}

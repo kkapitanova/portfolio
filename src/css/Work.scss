@@ -1,0 +1,38 @@
+.work {
+    padding-top: 100px;
+    margin-bottom: 300px;
+    margin-bottom: 500px;
+}
+
+.work h1 {
+    color: $workTitle;
+    padding-top: 80px;
+}
+
+/* .work h1:hover {
+    color: #855a31d2;
+    transition: 0.4s;
+} */
+
+// .work-category button {
+//     text-transform: capitalize;
+//     border: 3px solid #fdbf84;
+//     margin-bottom: 20px;
+//     padding: 15px 30px;
+//     border-radius: 50px;
+//     font-size: 1.1rem;
+//     letter-spacing: 1px;
+//     background-color: #252627;
+//     outline: none;
+//     cursor: pointer;
+// }
+
+.tab-title {
+    font-size: 2rem;
+    color: $tabTitle;
+    text-transform: bold;
+}
+
+
+
+  

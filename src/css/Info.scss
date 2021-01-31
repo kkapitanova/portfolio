@@ -1,0 +1,69 @@
+@import './Variables.scss';
+
+.main-info {
+    height: calc(100vh - 81.6px);
+}
+
+.text {
+    margin-top: 160px;
+}
+  
+.text h1 {
+    color: $futuredev;
+    font-size: 6rem;
+    cursor: context-menu;
+    margin-top: 8%;
+}
+
+.text span {
+    display: inline-block;
+}
+  
+span.spaced {
+    margin-right: 10px;
+ }
+
+span:hover {
+    color: $devhover;
+    transition: all .5s;
+}
+  
+span.crossed-out {
+    text-decoration: line-through;
+    color: $kristina;
+    cursor: not-allowed;
+}
+  
+.text p {
+    letter-spacing: 7px;
+    word-spacing: 8px;
+    font-size: 1.3rem;
+    color: $futuredev;
+}
+  
+.text a {
+    padding: 12px 25px;
+    background-color: none;
+    border: 3px solid $futuredev;
+    color: $futuredev;
+    background-color: $buttonBackground;
+    font-size: .8rem;
+    letter-spacing: 2px;
+    position: relative;
+    top: 80px;
+    overflow: hidden;
+    transition: .5s;
+    display: inline-block;
+}
+  
+.text a:hover {
+    color:  $buttonTextHover;
+    background-color: $mainColor;
+}
+
+/* .profile-image img {
+    width: 450px;
+    margin-top: 50px;
+} */
+
+
