@@ -18,8 +18,18 @@ function App () {
       <div className="App">
         <title>Kristina Kapitanova's Portfolio</title>
         <NavigationBar></NavigationBar>
-        <Info name="Kristina"></Info>
-        <About></About>
+        <Info 
+        name="Kristina"
+        job="developer"
+        skills={['JavaScript', 'Java', 'Python', 'C++', 'React']}
+        >
+        </Info>
+        <About 
+        name="Kristina Kapitanova" 
+        degree="BSc Computer Science and Artificial Intelligence"
+        university="Loughborough University"
+        >
+        </About>
         <Skills></Skills>
         <Work></Work>
         <Contact></Contact>

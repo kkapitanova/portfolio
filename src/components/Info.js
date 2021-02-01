@@ -1,4 +1,5 @@
 import React from 'react'
+import Skills from './Skills'
 
 const Info = (props) => {
     console.log()
@@ -15,10 +16,16 @@ const Info = (props) => {
                 <span>your</span>
                 <br/>
                 <span className='spaced'>future</span>
-                <span>developer</span>
+                <span>{props.job}</span>
                 <span>.</span>
             </h1>
-            <p>Java / Python / C++ / JavaScript / React</p>
+            <div className = "mainskills">
+                {props.skills.map(skill => (
+                <p>{skill}</p>
+            ))}
+            </div>
+            
+            {/* <p>Java / Python / C++ / JavaScript / React</p> */}
             <a href="#contact">contact me</a>
         </div>
         </div>

@@ -5,7 +5,7 @@ const About = (props) => {
     <div class="container about" id="about">
         <h1>About</h1>
         <div class="section-paragraph section-centralized about-me">
-            <p>My name is Kristina Kapitanova and I am currently in my second year towards my BSc Computer Science and Artificial Intelligence degree at Loughborough University, United Kingdom.
+            <p>My name is {props.name} and I am currently in my second year towards my {props.degree} degree at {props.university}, United Kingdom.
             </p>
             <p>Although I gained interest in programming fairly recently, I consider myself a fast and determined learner, which helped me gain a quick pace in my ongoing journey towards becoming a great developer.   
             </p>

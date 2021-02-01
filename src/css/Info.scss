@@ -33,12 +33,12 @@ span.crossed-out {
     cursor: not-allowed;
 }
   
-.text p {
-    letter-spacing: 7px;
-    word-spacing: 8px;
-    font-size: 1.3rem;
-    color: $futuredev;
-}
+// .text p {
+//     letter-spacing: 7px;
+//     word-spacing: 8px;
+//     font-size: 1.3rem;
+//     color: $futuredev;
+// }
   
 .text a {
     padding: 12px 25px;
@@ -60,6 +60,19 @@ span.crossed-out {
     background-color: $mainColor;
 }
 
+
+.mainskills {
+    display: flex;
+    letter-spacing: 7px;
+    word-spacing: 8px;
+    font-size: 1.3rem;
+    color: $futuredev;        
+}
+
+
+.mainskills p {
+    margin-right: 40px;
+}
 /* .profile-image img {
     width: 450px;
     margin-top: 50px;
